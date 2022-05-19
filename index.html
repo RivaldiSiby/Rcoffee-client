@@ -1,18 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- bootstrap -->
-    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./asset/css/index.css" />
     <title>Home</title>
-</head>
-<body>
-<h1>Hello Words</h1>
-<!-- bootstrap -->
-<script src="./asset/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="./asset/bootstrap/js/bootstrap.min.js"></script>
-</body>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-menu">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center href="#">
+          <img
+            class="logo-img"
+            src="./asset/img/homePage/coffee icon.png"
+            alt="iconcoffe"
+          />
+          <p class="logo-text">Coffee Shop</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse menu-bar"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav nav-ul">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="nav-text text-active">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="nav-text">Product </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="nav-text">Your Chart</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="nav-text">History</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="collapse nav-sign navbar-collapse "
+          id="navbarNav"
+        >
+          <ul class="navbar-nav d-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="nav-login">Login</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="nav-signup">Sign Up</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <section class="section-header">
+        <div class="container w-100">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row pt-5 mt-5">
+                        <div class="col-lg-12">
+                            <h1 class="section-header-text">
+                                Start Your Day with Coffee and Good Meals
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 mt-3">
+                            <p class="section-text">
+                                We provide high quality beans, good taste, and healthy meals made by love just for you. Start your day with us for a bigger smile!
+                            </p>
+                        </div>
+                        <div class="col-lg-12 mt-5">
+                            <a href="#" class="btn-section">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-1">
+                <div class="col-12 bg-white section-header-foot ">
+                    <div class="container">
+                        <div class="row d-flex justify-content-around">
+                            <div class="col-sm-3 box-section border-box">
+                                <section class="vektor-section d-flex align-items-center justify-content-center">
+                                    <img src="./asset/img/homePage/userv.svg" alt="staf" class="vektor-img">
+                                </section>
+                                <section class="box-text">
+                                    <p class="box-text1">90+</p>
+                                    <p class="box-text2">Staff</p>
+                                </section>
+                            </div>
+                            <div class="col-sm-3 box-section border-box">
+                                <section class="vektor-section d-flex align-items-center justify-content-center">
+                                    <img src="./asset/img/homePage/locv.svg" alt="staf" class="vektor-img">
+                                </section>
+                                <section class="box-text">
+                                    <p class="box-text1">30+</p>
+                                    <p class="box-text2">Stores</p>
+                                </section>
+                            </div>
+                            <div class="col-sm-3 box-section">
+                                <section class="vektor-section d-flex align-items-center justify-content-center">
+                                    <img src="./asset/img/homePage/locv.svg" alt="staf" class="vektor-img">
+                                </section>
+                                <section class="box-text">
+                                    <p class="box-text1">800+</p>
+                                    <p class="box-text2">Customers</p>
+                                </section>
+                            </div>
+                        </div>
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-body">
+        <div class="container">
+            <div class="row body-items d-flex justify-content-between">
+                <div class="col-lg-5 items-img">
+                    <img src="./asset/img/homePage/teamwork.png" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <div class="row items-info">
+                        <div class="col-12">
+                            <p class="items-title">
+                                We Provide Good Coffee and Healthy Meals
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <p class="items-text">
+                                You can explore the menu that we provide with fun and have their own taste and make your day better.
+                            </p>
+                        </div>
+                            
+                        <div class="col-12">
+                            <div class="items-list">
+                                <section><img src="./asset/img/homePage/listv.svg" alt="list"><span class="list-items">High quality beans</span></section>
+                                <section><img src="./asset/img/homePage/listv.svg" alt="list"><span class="list-items">Healthy meals, you can request the ingredients</span></section>
+                                <section><img src="./asset/img/homePage/listv.svg" alt="list"><span class="list-items">Chat with our staff to get better experience for ordering</span></section>
+                                <section><img src="./asset/img/homePage/listv.svg" alt="list"><span class="list-items">Free member card with a minimum purchase of IDR 200.000.</span></section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="favorite-title text-center">
+        <p class="title-favorite">
+            Here is People’s Favorite
+        </p>
+        <p class="favorite-info">
+            Let’s choose and have a bit taste of poeple’s favorite. It might be yours too!
+        </p>
+    </section>
+    <section class="section-product">
+        <div class="container">
+            <div class="row products d-flex justify-content-between">
+                <div class="col-lg-3 products-list d-flex flex-column justify-content-center align-items-center">
+                    <div class="products-head text-center ">
+                        <img src="./asset/img/homePage/product1.svg" alt="product">
+                        <p>Hazelnut Latte</p>
+                    </div>
+                    <div class="info-list">
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">HazelnutSyrup</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Wanilla Whipped Cream</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">CIce / Hot</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Sliced Banana on Top</span></section>
+                    </div>
+                    <div class="products-foot">
+                        <p class="price-text">IDR 25.000</p>
+                        <a href="#" class="btn-product">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 products-list d-flex flex-column justify-content-center align-items-center">
+                    <div class="products-head text-center ">
+                        <img src="./asset/img/homePage/product2.svg" alt="product">
+                        <p>Pinky Promise</p>
+                    </div>
+                    <div class="info-list">
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">1 Shot of Coffee</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Vanilla Whipped Cream</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Chocolate Biscuits</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Strawberry Syrup</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Sliced strawberry on Top</span></section>
+                    </div>
+                    <div class="products-foot">
+                        <p class="price-text">IDR 30.000</p>
+                        <a href="#" class="btn-product">Select</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 products-list d-flex flex-column justify-content-center align-items-center">
+                    <div class="products-head text-center ">
+                        <img src="./asset/img/homePage/product3.svg" alt="product">
+                        <p>Chicken Wings</p>
+                    </div>
+                    <div class="info-list">
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Wings</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Drum Sticks</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Mayonaise and Lemon</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Hot Fried</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Secret Recipe</span></section>
+                        <section><img src="./asset/img/homePage/plist.svg" alt="list"><span class="list-items">Buy 1 Get 1 only for Dine in</span></section>
+                    </div>
+                    <div class="products-foot">
+                        <p class="price-text">IDR 40.000</p>
+                        <a href="#" class="btn-product">Select</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="location-title text-center">
+        <p class="title-location">
+            Visit Our Store in <br>
+            the Spot on the Map Below
+        </p>
+        <p class="location-info">
+            See our store in every city on the spot and spen your good day there. See you soon!
+        </p>
+    </section>
+    <section class="maps-section">
+        <div class="container text-center">
+            <img src="./asset/img/homePage/maps.png" alt="maps">
+        </div>
+    </section>
+    <section class="parner-section text-center">
+        <div class="container">
+            <p class="title-partner">Our Partner</p>
+            <div class="row list-partner d-flex justify-content-between align-items-center">
+                <div class="col-2 items-partner">
+                    <img src="./asset/img/homePage/partner1.png" alt="Partner">
+                </div>
+                <div class="col-2 items-partner">
+                    <img src="./asset/img/homePage/partner2.png" alt="Partner">
+                </div>
+                <div class="col-2 items-partner">
+                    <img src="./asset/img/homePage/partner3.png" alt="Partner">
+                </div>
+                <div class="col-2 items-partner">
+                    <img src="./asset/img/homePage/partner4.png" alt="Partner">
+                </div>
+                <div class="col-2 items-partner">
+                    <img src="./asset/img/homePage/partner5.png" alt="Partner">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="costumer-title text-center">
+        <p class="title-location">
+            Loved by Thousands of <br>
+            Happy Customer
+        </p>
+        <p class="location-info">
+            These are the stories of our customers who have visited us with great pleasure.
+        </p>
+    </section>
+    <section class="testimoni-costumer">
+        <div class="testimoni-list d-flex justify-content-between">
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer1.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Viezh Robert</p>
+                                            <p class="profile-address">Warsaw, Poland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">“Wow... I am very happy to spend my whole day here. the Wi-fi is good, and the coffee and meals tho. I like it here!! Very recommended!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer2.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Yessica Christy</p>
+                                            <p class="profile-address">Shanxi, China</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">
+                                “I like it because I like to travel far and still can make my day better just by drinking their Hazelnut Latte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer3.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Kim Young Jou</p>
+                                            <p class="profile-address">Seoul, South Korea</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">
+                                “This is very unusual for my taste, I haven’t liked coffee before but their coffee is the best! and yup, you have to order the chicken wings, the best in town!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer1.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Viezh Robert</p>
+                                            <p class="profile-address">Warsaw, Poland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">“Wow... I am very happy to spend my whole day here. the Wi-fi is good, and the coffee and meals tho. I like it here!! Very recommended!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer2.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Yessica Christy</p>
+                                            <p class="profile-address">Shanxi, China</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">
+                                “I like it because I like to travel far and still can make my day better just by drinking their Hazelnut Latte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer3.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Kim Young Jou</p>
+                                            <p class="profile-address">Seoul, South Korea</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">
+                                “This is very unusual for my taste, I haven’t liked coffee before but their coffee is the best! and yup, you have to order the chicken wings, the best in town!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer1.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Viezh Robert</p>
+                                            <p class="profile-address">Warsaw, Poland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">“Wow... I am very happy to spend my whole day here. the Wi-fi is good, and the coffee and meals tho. I like it here!! Very recommended!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer2.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Yessica Christy</p>
+                                            <p class="profile-address">Shanxi, China</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">
+                                “I like it because I like to travel far and still can make my day better just by drinking their Hazelnut Latte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row box-header">
+                                <div class="col-9">
+                                    <div class="row d-flex">
+                                        <div class="col-4 profile-img">
+                                            <img src="./asset/img/homePage/costumer3.png" alt="profile-img">
+                                        </div>
+                                        <div class="col">
+                                            <p class="profile-name">Kim Young Jou</p>
+                                            <p class="profile-address">Seoul, South Korea</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <p class="rank-text">4.5</p>
+                                    <img class="rank-icon" src="./asset/img/homePage/starv.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="testimoni-text">
+                                “This is very unusual for my taste, I haven’t liked coffee before but their coffee is the best! and yup, you have to order the chicken wings, the best in town!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="testimoni-scroll">
+        <div class="row d-flex ">
+            <div class="col-2 text-start d-flex justify-content-between align-items-center">
+                <section class="list-active d-flex justify-content-between align-items-center">
+                    <img src="./asset/img/homePage/border.png" alt="border">
+                </section>
+                <section class="scroll-list"></section>
+                <section class="scroll-list"></section>
+                <section class="scroll-list"></section>
+            </div>
+            <div class="col-10 d-flex justify-content-end">
+                <button class="btn-scroll">
+                    <img src="./asset/img/homePage/arrowleft.svg" alt="arrowleft">
+                </button>
+                <button class="btn-scroll btn-right">
+                    <img src="./asset/img/homePage/arrowright.svg" alt="arrowright">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="section-promo">
+
+    </section>
+    <!-- bootstrap -->
+    <script src="./asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/ulg/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
