@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* font */
+@font-face {
+  font-family: "Rubik";
+  src: url("/asset/font/Rubik/static/Rubik-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/asset/font/Poppins/Poppins-Regular.ttf");
+}
+/* navbar */
+.navbar-menu {
+  padding: 40px 0;
+}
+/* nabar logo */
+.logo-img {
+  width: 30px;
+  height: 33px;
+}
+.logo-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0b132a;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.menu-bar {
+  display: flex;
+  width: 52%;
+  justify-content: center;
+  padding: 0 8%;
+}
+
+.nav-sign {
+  display: flex;
+  justify-content: end;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+}
+.nav-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f5665;
+}
+/* nabar logo */
+.icon-nav {
+  width: 30px;
+  height: 30px;
+  margin-left: 34px;
+}
+
+.icon-chat {
+  display: flex;
+}
+.icon-chat > img {
+  margin-left: -5px;
+}
+.icon-chat > p {
+  margin-top: -7px;
+}
+.icon-chat-text {
+  width: 15px;
+  height: 15px;
+  background: #6a4029;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 9px;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.nav-photos {
+  width: 34px;
+  height: 34px;
+  border: 3px solid #6a4029;
+  filter: drop-shadow(0px 6px 20px rgba(106, 64, 41, 0.8));
+  border-radius: 50%;
+}
+/* navbar */
+/* section profile */
+.profile-body {
+  background-image: url("../img/profilePage/bgprofile.jpg");
+  background-size: cover;
+  height: 1180px;
+  width: 100%;
+  padding-top: 60px;
+}
+.profile {
+  /* background-color: blue; */
+  width: 100%;
+  height: 1035px;
+}
+.profile-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #ffffff;
+  text-shadow: 0px 6px 8px rgba(255, 255, 255, 0.26);
+  padding-bottom: 15px;
+}
+.profile-box {
+  width: auto;
+  min-height: 951px;
+  background: #f8f8f8;
+  border-radius: 20px;
+  padding: 55px 5%;
+}
+.profile-info {
+  height: 841px;
+}
+.profile-head > img {
+  height: 192px;
+  width: 182px;
+  border-radius: 50%;
+}
+.profile-head > h5 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 15px;
+  text-align: center;
+  color: #000000;
+}
+.profile-head > h5 > span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+.btn-photo {
+  width: 207px;
+  display: block;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 10px;
+  margin-top: 11px;
+}
+.c-yellow {
+  color: #6a4029;
+  background: #ffba33;
+}
+.c-yellow:hover {
+  color: #6a4029;
+}
+.c-brown {
+  color: white;
+  background: #6a4029;
+}
+.c-brown:hover {
+  color: white;
+}
+
+.btn-edit {
+  width: 207px;
+  display: block;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 20px;
+  margin-top: 11px;
+}
+
+.c-white {
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  color: #6a4029;
+  margin-top: 47px;
+}
+.c-white:hover {
+  color: #6a4029;
+}
+.layout-text {
+  margin-top: 34px;
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #6a4029;
+  text-shadow: 0px 6px 9px rgba(255, 255, 255, 0.21);
+}
+
+/* user info */
+.user-info {
+  height: 841px;
+  background: #ffffff;
+  box-shadow: 0px 23px 20px -3px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  border-bottom: 12px solid #6a4029;
+}
+.form-head {
+  height: 75px;
+}
+.left-form {
+  height: 604px;
+}
+.right-form {
+  height: 604px;
+}
+.form-foot {
+  height: 150px;
+}
+/* user info */
+/* section profile */
+
+/* footer */
+.section-footer {
+  min-height: 528px;
+  width: 100%;
+  background: #f8f8f8;
+  padding-top: 99.2px;
+  padding-bottom: 96px;
+}
+.foot-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 20%;
+}
+/* info left */
+
+.info-left {
+  flex: 1;
+}
+
+.info-left-head {
+  display: flex;
+}
+
+.info-left-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+.info-left-icon {
+  display: flex;
+}
+.imgvektor {
+  height: 30.600006103515625px;
+  width: 30.600006103515625px;
+  border-radius: 20px;
+  background-color: #6a4029;
+  margin-right: 20px;
+}
+.vimg {
+  height: 33.600006103515625px;
+  width: 33.600006103515625px;
+  border-radius: 0px;
+  color: #6a4029;
+}
+.info-left-foot {
+  padding-top: 30px;
+}
+.foot-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #afb5c0;
+}
+
+.info-right {
+  flex: 1;
+  width: 100%;
+  display: flex;
+}
+.info-right-body {
+  width: 100%;
+}
+.info-right-text-head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+.info-right-text-last {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4f5665;
+}
+.info-right-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4f5665;
+}
+/* footer */
