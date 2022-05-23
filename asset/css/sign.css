@@ -118,6 +118,10 @@ main {
   height: 75px;
   color: #6a4029;
   margin-top: 47px;
+  text-decoration: none;
+}
+.form-btn-sign:hover {
+  color: #6a4029;
 }
 .form-btn-google {
   border: none;
@@ -146,6 +150,10 @@ main {
   height: 75px;
   color: #ffffff;
   margin-top: 42px;
+  text-decoration: none;
+}
+.form-btn-login:hover {
+  color: #ffffff;
 }
 .has-account {
   display: flex;

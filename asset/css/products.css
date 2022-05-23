@@ -292,6 +292,10 @@
   line-height: 24px;
   color: #9f9f9f;
   text-decoration: none;
+  transition: 0.5s;
+}
+.list-menu:hover {
+  color: #4f5665;
 }
 .menu-active {
   font-family: "Rubik";
@@ -299,6 +303,9 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  color: #6a4029;
+}
+.menu-active:hover {
   color: #6a4029;
 }
 .list-active {

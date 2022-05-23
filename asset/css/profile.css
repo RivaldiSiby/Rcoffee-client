@@ -287,8 +287,20 @@
   border-radius: 0px;
   padding-left: 0px;
   margin-bottom: 47px;
-
   border-bottom: 2px solid black;
+}
+.area-input {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  border: none;
+  border-radius: 0px;
+  resize: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 47px;
 }
 .form-title {
   font-family: "Poppins";
@@ -311,7 +323,7 @@
   flex: 1;
 }
 .right-form div:nth-child(2) {
-  padding-top: 51.5px;
+  padding-top: 87px;
 }
 .form-foot {
   height: auto;
