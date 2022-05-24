@@ -930,11 +930,13 @@ body {
   /* section promo */
   /* section footer */
   .section-footer {
-    padding: 0 5%;
+    padding: 0 10%;
+    padding-left: 15%;
     padding-top: 170px;
     padding-bottom: 90px;
     column-gap: 10%;
     flex-direction: column-reverse;
+    justify-content: space-between;
   }
   /* section footer */
 }
